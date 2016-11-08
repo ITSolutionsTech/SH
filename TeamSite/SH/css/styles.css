@@ -1,0 +1,522 @@
+﻿/* STYLE ADDED BY ZEMOURI Nadir, BEGIN AT : 24/07/2016
+    UPDATES :
+
+*/
+h2{
+	/*font-size:2.46em!important*/
+}
+
+#SearchBox .ms-srch-sb-borderFocused {
+    height: 44px;
+}
+#SearchBox .ms-srch-sb-border {
+    border: 1px solid rgb(119, 119, 119);
+    height: 44px;
+    background-color: rgb(255, 255, 255);
+}
+#SearchBox input {
+    width: 70%; 
+    height: 37px; 
+    font-size: 16px; 
+    margin-top: 2px;
+    border:none;
+}
+#SearchBox .ms-srch-sb-searchImg {
+    display: none;
+}
+#SearchBox .ms-srch-sb-searchLink {
+    background: url("../Images/SH-SearchLogo.png") no-repeat left top; margin: 2px; width: 37px; height: 37px; float: right;
+}
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+	
+}
+
+#contentRow{font-family: arial; font-size: 14px; color: #525252; margin-left:20px}
+#WebPartWPQ14_ChromeTitle .ms-webpart-titleText.ms-webpart-titleText{color: #F27F1F}
+.ms-webpart-titleText.ms-webpart-titleText {
+    font-family: arial;
+    font-size: 17px;
+    color: #444;
+    font-weight: bold;
+    padding: 12px 10px 8px 20px;
+}
+.ms-webpart-titleText.ms-webpart-titleText > a {
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.txt_mot_directeur{padding-top: 5px}
+.title_mot_directeur{color: rgb(240, 150, 9); font-size: 20px; font-family: arial}
+/* from SHCOREV.css*/
+.ms-webpartPage-root{ border-spacing: 8px}
+.ms-core-tableNoSpace > * > tr:nth-child(1) > td:not(:last-child){border-right: 1px solid rgb(219, 219, 219); padding-right:10px}
+.ms-rte-wpbox {
+	padding-bottom: 10px; margin-bottom: 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+
+#s4-titlerow{height: 140px; background: url("/_layouts/15/Images/SH-Header-bkg.jpg") repeat-x left top}
+div#portalNav{margin-top: 35px!important}
+.idfaq{padding: 4px 0 0; font-size: 41px; height:53px; } 
+.idfaq > div{color: #00A3D9; padding: 5px 0 0 0!important;}
+div.contentfaq a.ms-listlink{color: #00A3D9; font-size: 14px;font-weight:bold;}
+
+tr.contentfaq{border-bottom: 1px dotted #666666;display:block;height:auto !important;padding-bottom: 6px;padding-top: 6px;}
+tr.contentfaq:last-child{border-bottom:0px;}
+tr.contentfaq td.ms-cellstyle{padding: 4px 4px 4px 4px; vertical-align: middle;}
+tr.contentfaq td.blanktd{padding: 1px!important}
+div.contentfaq{padding: 5px 5px}
+table.faqlist{padding-top: 10px} 
+
+.faqlist .ms-list-itemLink-td{width: 0px}
+.faqlist .ms-list-itemLink{width: 0px}
+
+.faqlist .ms-itmHoverEnabled:hover > td{/*border: 1px solid transparent;*/ background-color: #E5F6FB;}
+.faqlist .ms-itmHoverEnabled:hover .ms-list-itemLink-td > div.ms-list-itemLink  {background-color: white;}
+.faqlist .ms-itmHoverEnabled:hover .ms-list-itemLink-td {background-color: white;}
+
+
+
+/* Main menu globalNav*/
+.ms-welcome-root > a.ms-core-menu-root{color: #ACACAC!important}
+#suiteBarRight{background-color: rgb(47, 48, 49)!important; padding-top: 7px}
+#suiteBarleft{background-color: rgb(47, 48, 49)!important;}
+.ms-welcome-hover{background-color: rgb(47, 48, 49)!important; border-right-color: rgb(47, 48, 49)!important}
+.ms-viewselector-arrow img{left:105px!important ;top: -250px!important}
+.ms-core-menu-box{background-color: rgb(47, 48, 49)!important; border: none!important; }
+.ms-core-menu-link:hover{color: #F5821F!important}
+.ms-core-menu-link{color: #ACACAC!important}
+
+
+/* Menu pricipale */
+#globalNav
+{
+    /*width: 100%;*/
+    margin: 0;
+    padding: 10px 0 0 0;
+    list-style: none; 
+}
+
+#globalNav li
+{
+    padding: 0 0 10px 0;
+   /* float: left;    
+    position: relative;
+    line-height: 0;*/
+}
+
+#globalNav a 
+{
+    float: left;
+    height: 25px;
+    padding: 0 10px 6px;
+    color: #ACACAC;
+    text-transform: uppercase;
+    font: normal 12px/25px Arial, Helvetica;
+    text-decoration: none;
+    /*text-shadow: 0 1px 0 #000;*/
+}
+
+#globalNav > li:first-child a{
+	padding-left:0!important;
+}
+
+*html #globalNav li a:hover /* IE6 */
+{
+    color: #fafafa;
+}
+
+#globalNav li:hover > ul
+{
+    display: block;
+}
+
+/* Sub-menu 
+
+#globalNav ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;    
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: 99999;    
+    background: #444;
+    background: -moz-linear-gradient(#444, #111);
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));
+    background: -webkit-linear-gradient(#444, #111);    
+    background: -o-linear-gradient(#444, #111); 
+    background: -ms-linear-gradient(#444, #111);    
+    background: linear-gradient(#444, #111);
+    //-moz-box-shadow: 0 0 2px rgba(255,255,255,.5);
+    //-webkit-box-shadow: 0 0 2px rgba(255,255,255,.5);
+    //box-shadow: 0 0 2px rgba(255,255,255,.5);  
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#globalNav ul ul
+{
+  top: 0;
+  left: 150px;
+}
+
+#globalNav ul li
+{
+    float: none;
+    margin: 0;
+    padding: 0;
+    display: block;  
+   // -moz-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    //-webkit-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    //box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+}
+
+#globalNav ul li:last-child
+{   
+   // -moz-box-shadow: none;
+   // -webkit-box-shadow: none;
+   // box-shadow: none;    
+}
+
+#globalNav ul a
+{    
+    padding: 10px;
+    height: 10px;
+    width: 130px;
+    height: auto;
+    line-height: 1;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}*/
+
+*html #globalNav ul a /* IE6 */
+{    
+    height: 10px;
+}
+
+*:first-child+html #globalNav ul a /* IE7 */
+{    
+    height: 10px;
+}
+
+#globalNav ul a:hover
+{
+    /*background: #F27F1F;
+    background: -moz-linear-gradient(#04acec,  #0186ba);    
+    background: -webkit-gradient(linear, left top, left bottom, from(#04acec), to(#0186ba));
+    background: -webkit-linear-gradient(#04acec,  #0186ba);
+    background: -o-linear-gradient(#04acec,  #0186ba);
+    background: -ms-linear-gradient(#04acec,  #0186ba);
+    background: linear-gradient(#04acec,  #0186ba);*/
+}
+
+#globalNav ul li:first-child > a
+{
+   /* -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;*/
+}
+
+
+#globalNav ul ul li:first-child a:after
+{
+    left: -8px;
+    top: 12px;
+    width: 0;
+    height: 0;
+    border-left: 0; 
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-right: 8px solid #444;
+}
+
+#globalNav ul li:first-child a:hover:after
+{
+    border-bottom-color: #F27F1F; 
+}
+
+#globalNav ul ul li:first-child a:hover:after
+{
+    border-right-color: #F27F1F; 
+    border-bottom-color: transparent;   
+}
+
+
+#globalNav ul li:last-child > a
+{
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Clear floated elements */
+#globalNav:after 
+{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+* html #globalNav             { zoom: 1; } /* IE6 */
+*:first-child+html #globalNav { zoom: 1; } /* IE7 */
+#sondageDiv table{max-width: 198pt;}
+#sondageDiv > div.bx-wrapper > div.bx-viewport > ul.slider > li > table > tbody > tr{
+    overflow: hidden
+}
+#sondageDiv > div.bx-wrapper > div.bx-viewport > ul.slider > li > table > tbody > tr > td:first-child{
+    position: absolute;
+}
+#sondageDiv > div.bx-wrapper > div.bx-viewport >  ul.slider > li > table > tbody > tr > td:nth-child(2){
+    padding-bottom: 0!important;
+}
+#sondageDiv{ font-size: 12px}
+
+#sondageDiv hr{ display: none;}
+#sondageDiv > div.bx-wrapper > div.bx-viewport >  ul.slider > li > table > tbody > tr td:nth-child(2){
+    position: relative; padding-top: 5px
+}
+#sondageDiv > div.bx-wrapper > div.bx-viewport >  ul.slider > li > table > tbody > tr td:nth-child(2) > table > tbody > tr > td:first-child{
+   width: 1px!important;
+}
+#sondageDiv > div.bx-wrapper > div.bx-viewport >  ul.slider > li > table > tbody > tr td:nth-child(2) > table > tbody > tr {
+    overflow: hidden;
+}
+#sondageDiv > div.bx-wrapper > div.bx-viewport >  ul.slider > li > table > tbody > tr td:nth-child(2) > table > tbody > tr > td:nth-child(2){
+    position: absolute;left: 227px;top: 17px; font-size: 10px
+}
+#sondageDiv ul.slider{
+    padding: 0; list-style: none;margin:0;
+}
+#sondageDiv ul.slider li {
+    padding: 0; 
+}
+.DetailActus p{margin-top: 0; display:inline-block}
+.DetailActus p.title{ font-weight: bold; font-size: 20px;background-image:url('../images/ico-title.png');background-position:right center;background-repeat:no-repeat;padding-right:15px;}
+.DetailActus p.date{ color: #F4811F; display:block}
+.DetailActus p.date span.categorie{ color: #000000}
+.DetailActus p.outils{float:right; position:relative; bottom:100px}
+.DetailActus p.outils a:hover span{border:1px solid gray;}
+.DetailActus p.outils span{border:1px solid rgb(204, 204, 204); margin-left:8px; padding:5px}
+.DetailActus p.outils span img{width:24px; vertical-align:middle}
+
+.actusEnRelation{width: 250px; margin-left:20px}
+.actusEnRelation p.header{ font-weight: bold; font-size: 20px}
+.actusEnRelation p.header span{background-image:url('../images/ico-title.png');background-position:right center;background-repeat:no-repeat;padding-right:15px;}
+.actusEnRelation div.title{ color: #F4811F; padding-bottom: 10px}
+.actusEnRelation{ background-color: #F4F4F2; padding: 10px}
+.actusEnRelation p.header{margin-top: 0}
+.ms-webpart-zone{display: block!important;}
+#DeltaTopNavigation div ul{}
+#DeltaTopNavigation ul li .ms-core-listMenu-item{    margin-right: 20px; text-transform: uppercase;    color: #2C3031;font-size: 14px;    background: url("../Images/imgSep.png") no-repeat right center;    padding-right: 30px;padding-right:20px;}
+#DeltaTopNavigation ul li .ms-core-listMenu-item:hover{ color:#F5821F}
+#DeltaTopNavigation ul li .ms-core-listMenu-item:first-child{}
+#DeltaTopNavigation ul li.active .ms-core-listMenu-item{color: #F27F1F}
+
+
+/* Meteo and prayer */
+    div#container {
+        height: 60px;
+        line-height: 40px;
+        display: inline-block;
+    }
+    .modif_region form{margin: 0}
+    .modif_region{height: 35px; background-image: url('../Images/btn_modif_region.png');background-position: right center;background-repeat: no-repeat;padding-right: 20px;}
+    .modif_region_prayer{height: 35px; background-image: url('../Images/btn_modif_region.png');background-position: right center;background-repeat: no-repeat;padding-right: 20px;}
+    #weather_container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 16px;
+        display: inline-block;
+        padding-right: 30px;
+        margin-right: 20px;
+        background: url("../Images/imgSep.png") no-repeat right center;
+        margin-bottom: 0px;
+    }
+    #weather, #prayer_div{
+        padding-left:0px;display: inline-block;    
+        background-image: url('../Images/btn_modif_region.png');
+    	background-position: right center;
+    	background-repeat: no-repeat;
+    	min-width: 16px;
+    	height: 34px;
+    	padding-right:20px
+    }
+
+    #prayer_div > p{
+        margin:0px;
+        padding-left: 45px;
+        background:url("../Images/mosque.png") no-repeat left center;
+        padding-top:5px
+    }
+
+
+   
+h2.title_webpart a{color: #F3801F; font-family: arial;font-size: 20px;background-image: url('../images/ico-title-color.png');background-position: right center;background-repeat: no-repeat;padding-right: 15px;}
+#slider1_container h2{padding-bottom: 10px}
+.infoExpressWP .infoContainer{font-size: 14px}
+table.BourseEmploi{font-size: 12px; font-family: tahoma}
+table.projetsSonatrach{font-size: 13px; font-family: tahoma}
+.ms-rtestate-field table.BourseEmploi p{line-height: normal;}
+.bx-wrapper{padding-bottom: 15px}
+.ms-rtestate-read.ms-rte-wpbox + p{display: none; margin-bottom: 5px}
+.ms-rtestate-read.ms-rte-wpbox + br{display: none;}
+#contentRow{padding-top: 0!important;overflow:visible; margin-right:20px}
+.ms-rte-layoutszone-inner-editable #menu-container{width:450px!important}
+.ms-rte-layoutszone-inner-editable img{max-width:450px!important}
+.ms-rte-layoutszone-inner-editable #actu-Pager li.thumb-odd{width:235px!important}
+.ms-rte-layoutszone-inner-editable #actu-Pager li.thumb-even{width:235px!important}
+.ms-rte-layoutszone-inner-editable .thumbDesc{width:130px}
+.ms-rte-layoutszone-inner-editable .thumbDesc p{width:145px}
+.ms-core-menu-item:hover{background-color:rgb(47, 48, 49)!important; color:#F5821F}
+.ms-core-menu-itemSelected{background-color:rgb(47, 48, 49)!important; color:#F5821F}
+.ms-siteactions-hover{background-color:rgb(47, 48, 49)!important; border-right-color:rgb(47, 48, 49)!important;}
+.ms-siteactions-imgspan > .ms-core-menu-buttonIcon{left:-254px!important;top:-84px!important}
+tr.ms-rteTableEvenRow-0 td.ms-rteTableEvenCol-0:first-child{
+	width:16%!important;
+}
+tr.ms-rteTableEvenRow-0 td.ms-rteTableOddCol-0{
+	width:11%!important;
+}
+td#MSOTlPn_MainTD{
+	position:absolute
+}
+.infoItem .infoTitle a{
+	font-weight:bold;
+	vertical-align:middle;
+}
+.ms-custom-breadcrumb{
+	margin-left:0!important
+}
+#sideNavBox{
+	margin-left:0!important; display:none!important
+}
+.ms-mpSearchBox{
+	width:100%!important
+}
+.scrollToTop{
+	width:50px!important; height:50px!important
+}
+.ms-rte-layoutszone-inner-editable #mapDiv{
+	width:450px!important
+}
+.ms-core-listMenu-horizontalBox ul{ 
+padding-left:20px
+} 
+
+.ms-core-listMenu-horizontalBox li.static > ul{ 
+padding-left:0; 
+}
+
+.ms-core-listMenu-horizontalBox li.static > ul a{ 
+display: inline-block !important; 
+}
+
+.infoItem  img{
+	vertical-align:middle;
+}
+
+
+
+/* Style Partage Solutions , */
+
+.InfoUtileContainer{border-bottom:1px dotted #333;margin-bottom:10px;padding-bottom:10px;}
+.InfoUtileContainer:last-child{border-bottom:none;margin-bottom:0px;padding-bottom:0px;}
+.InfoUtileContainer:last-child .InfoUtileDesc{margin-bottom:0px;}
+.InfoUtileDesc{padding-top:8px;}
+.InfoUtileItem{font-weight:bold;line-height:normal !important;margin-bottom:0px !important;padding-left: 15px;background: url("../Images/item_arrow.png") no-repeat left center;}
+.InfoUtileItem span{vertical-align: middle;display:inline-block;line-height:normal !important;}
+.InfoUtileItem span a{color:#F5821F;font-weight:bold;}
+.InfoUtileTitle{width:200px;overflow:hidden;}
+.readMore{text-align:right;padding-right:10px;height:50px;width:240px;}
+.readMore a {color:#F5821F;font-weight:500;}
+.infoExpressWP, .infosUtilesWP{max-width:295px;margin-top:10px;}
+.heroButton{
+	margin-bottom:15px;
+}
+
+/* Forum de discussions */
+#addItemLine{
+	text-align:right;
+}
+#addItemLine a{
+	display:block;
+	height:19px;
+	background:url("/ec/_catalogs/masterpage/sh/images/add-forum-item.png") no-repeat center right;
+
+}
+#addItemLine a:hover{
+	background:url("/ec/_catalogs/masterpage/sh/images/add-forum-item-hover.png") no-repeat center right;
+
+}
+p.title {
+    float: left;
+    margin:0px;
+    
+}
+p.title a{
+	color:#707274;
+}
+
+p.nbRep {
+    float: right;
+    margin:0px;
+}
+
+.discElem {
+    overflow: hidden;
+    border-bottom: 5px solid #E2E3E3;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    margin-right: 16px;
+}
+
+.discElem:last-child{
+	border:none;
+	padding-top: 12px;
+	padding-bottom:0px;
+}
+
+.ms-webpartzone-cell{
+	margin:auto auto 0px !important;
+}
+
+.ms-webpart-chrome {
+    border-top: 3px solid #eee !important;
+    border-right: 1px solid #eee !important;
+    border-left: 1px solid #eee !important;
+    border-bottom: 3px solid #eee !important;
+    padding:0 25px;
+}
+.ms-wpContentDivSpace{
+	padding:10px 20px;
+}
+.ms-webpart-chrome-title {
+    
+    border-bottom: 1px solid #eee !important;
+    padding:0px;
+}
+
+.discElem {
+    overflow: hidden;
+    border-bottom: 5px solid #E2E3E3;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    margin-right: 16px;
+}
+
+.discElem:last-child{
+	border:none;
+	padding-top: 12px;
+	padding-bottom:0px;
+}
