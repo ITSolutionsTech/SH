@@ -412,7 +412,7 @@
 			class="ms-tableRow">
 <div id="siteIcon" class="ms-tableCell ms-verticalAlignMiddle">
 <SharePoint:SPSimpleSiteLink CssClass="ms-siteicon-a" runat="server" id="onetidProjectPropertyTitleGraphic">
-<img src="/ec/ep/_catalogs/masterpage/SH/images/SH-Logo.png" alt="Logo Sonatrach" />
+<img src="../../_catalogs/masterpage/SH/images/SH-Logo.png" alt="Logo Sonatrach" />
 </SharePoint:SPSimpleSiteLink>
 </div>
                                 <div id="portailIcon" class="ms-tableCell ms-verticalAlignMiddle">
